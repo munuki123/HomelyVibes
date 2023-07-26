@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/*
+Theme Name: Smart Tech Blog
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/themes/free-blog-wordpress-theme/
+Author URI: https://www.themagnifico.net/
+Description: Smart Tech Blog is a cutting-edge and feature-rich WordPress theme designed specifically for technology-related blogs. The theme comes with a sleek and modern design and offers a powerful platform for tech enthusiasts, reviewers, and industry experts to share their knowledge and insights with their audience. Smart Tech Blog boasts a clean and intuitive layout that enhances the reading experience and puts the focus on the content. Its minimalistic design and well-structured sections allow for easy navigation, ensuring that visitors can effortlessly explore the blog and find the information they seek. The theme's responsive design ensures that the blog looks great on all devices, including smartphones, tablets, and desktops, providing a seamless and consistent experience for users. With its flexible and user-friendly customization options, you can easily personalize various aspects of your blog to align with your brand identity. You can also choose from a variety of color schemes, typography options, and layout styles to create a unique and visually appealing website that reflects your style and expertise. This theme is optimized for search engines, helping to improve your blog's visibility in search results and attract organic traffic. It also integrates seamlessly with popular social media platforms, enabling you to easily share your content and engage with your audience across different channels.
+Version: 0.1
+Tested up to: 6.2
+Requires PHP: 5.6
+Requires at least: 5.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: food-recipe-blog
+Text Domain: smart-tech-blog
+Tags: custom-logo, one-column, two-columns, wide-blocks, block-styles, editor-style, sticky-post, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, news, photography, portfolio
+
+Smart Tech Blog WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2023.
+Smart Tech Blog WordPress Theme is released under the terms of GNU GPL
+*/
+
+.navbar-brand h1.site-title a,.woocommerce-message::before, .woocommerce-info::before,p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price,.main-navigation .menu > li > a:hover,.sidebar ul li a:hover ,.widget a:hover,a.btn-text,a{
+    color: #703a88;
+}
+.slider-box-btn a:hover,.sidenav .closebtn,.toggle-nav i,.woocommerce a.added_to_cart,.woocommerce #respond input#submit,.btn-primary,.woocommerce button.button,.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce .woocommerce-ordering select,.woocommerce a.button,.post-navigation .nav-next a:hover,.post-navigation .nav-previous a:hover,.comment-respond input#submit,.main-navigation .sub-menu > li > a:hover, .main-navigation .sub-menu > li > a:focus,.main-navigation .sub-menu,.sidebar input[type="submit"],.sidebar .tagcloud a:hover,.sidebar button[type="submit"],#colophon,.meta-info-box,.top_header,.sidebar h5, #button{
+    background: #703a88;
+}
+#post-n-sidebar hr,.btn-primary,.woocommerce-message, .woocommerce-info,.post-navigation .nav-next a:hover,.post-navigation .nav-previous a:hover{
+    border-color: #703a88;
+}
+.main-navigation .sub-menu > li{
+    border-color: #000;
+}
+.social-link i{
+    color: #ffffff;
+}
+#page-content a {
+    text-decoration: underline;
+}
+.navbar-brand h1.site-title{
+    font-family: 'Pacifico', cursive;
+}
+.search-box input[type="search"]::placeholder{
+    font-size: 15px;
+    line-height: 19px;
+    color: #333333;
+    font-weight: 400;
+}
+.search-box input[type="search"]{
+    background: #f8eaff;
+    border-radius: 5px;
+}
+p.site-description{
+    line-height: 16px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.subscribe-box a {
+    padding: 20px;
+}
+.main-navigation .menu li.current-menu-item a:before{
+    content: "";
+    width: 10%;
+}
+.banner-img:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #764385d4;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+#banner .banner-img {
+    position: relative;
+}
+#banner .banner-content {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    left: 15%;
+}
+
+#banner .banner-content h3{
+    font-size: 24px;
+    line-height: 46px;
+    color: #ffffff;
+    font-weight: 400;
+}
+#banner .banner-content h4{
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Be Vietnam', sans-serif;
+}
+.popular-box img{
+     width: 100%;
+}
+.content-box h4{
+    font-size: 18px;
+    line-height: 43px;
+    color: #333333;
+    font-weight: 700;
+    font-family: 'Be Vietnam', sans-serif;
+}
+.content-box p{
+    font-size: 15px;
+    line-height: 22px;
+    color: #949fa7;
+    font-weight: 400;
+}
+.content-box {
+    border: 1px solid #e8ecf1;
+    border-top: none;
+    padding: 10px 20px;
+    border-radius: 0px 0px 7px 7px;
+}
+.content-box a{
+    font-size: 14px;
+    color: #703a88;
+    font-weight: 600;
+}
+.recipe-head h3{
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #333333;
+    font-weight: 800;
+}
+.main-navigation .menu > li > a{
+    font-size: 15px;
+    line-height: 19px;
+    padding: 15px 12px;
+    color: #333333;
+    font-weight: 500;
+    position: relative;
+}
+.main-navigation .menu li.current-menu-item a:before {
+    content: "";
+    width: 22px;
+    position: absolute;
+    height: 2px;
+    margin: 0 auto;
+    right: 0px;
+    left: 0px;
+    background: #703a88;
+    bottom: 5px;
+}
+.popular-box {
+    border-radius: 12px;
+}
+#popular hr {
+    border-top: 7px double #703a88;
+}
+ul.sub-menu li a:before{
+    display: none;
+}
+
+@media screen and (max-width: 575px){
+    #top-slider .owl-nav{
+        display: none;
+    }
+    .slider-inner-box {
+        right: 3%;
+        left: 3%;
+    }
+    .slider-box-btn{
+        margin-top: 15px !important;
+    }
+    .slider-inner-box h1 a {
+        font-size: 16px;
+    }
+    .stick_header{
+        position: static !important;
+    }
+    .latest-services .section-content {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+   
+}
+@media screen and (max-width: 600px){
+    .admin-bar .socialmedia.stick_header {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .phone-text {
+       text-align: left;
+    }
+    .slider-inner-box {
+        right: 10%;
+        left: 10%;
+    }
+    .main-navigation .menu > li{
+        display: block;
+    }
+    .main-navigation .menu > li > a{
+        color: #fff;
+    }
+    .main-navigation .sub-menu{
+        background: transparent;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1199px){
+    .slider-inner-box {
+        right: 18%;
+        left: 18%;
+    }
+    
+}

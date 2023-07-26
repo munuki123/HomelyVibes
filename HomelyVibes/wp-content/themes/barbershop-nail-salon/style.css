@@ -1,0 +1,218 @@
+/*
+Theme Name: Barbershop Nail Salon
+Theme URI: https://www.ovationthemes.com/wordpress/free-barbershop-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Barbershop nail salon is made for beauty salons, beauty shops, beauty spas, cosmetics, hairdressers, health, lifestyle, massage, salon, spa booking, wellness, and cosmetic stores. As part of the theme, you will find an exquisite selection of nail spas, nail bars, makeup bars, and nail polish templates, as well as pages and features ideal for nail care, eyebrow tattooing, eyelash, brow bar, and cosmetic store websites. Your online salon website needs everything. A number of premium plugins are included with the theme. It is equipped with nice portfolio styles powered by the Essential Grid plugin, and it is compatible with social media feeds for visual customization and an attractive Revolution Slider as a home slider. The theme is fully compatible with the WooCommerce plugin, allowing you to convert your website into an online store for skincare products, hair and body cosmetics, fragrances, and health and beauty items.
+Version: 1.7
+Requires PHP: 7.2
+Tested up to: 6.2
+Requires at least: 5.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: barbershop-nail-salon
+Template: beauty-salon-spa
+Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, full-width-template, sticky-post, block-styles, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, wide-blocks, education, portfolio, photography
+
+Barbershop Nail Salon WordPress Theme, Copyright 2022 pewilliams
+Barbershop Nail Salon is distributed under the terms of the GNU GPL
+
+Barbershop Nail Salon WordPress Theme is child theme of Beauty Salon Spa WordPress Theme, Copyright 2021 pewilliams
+Beauty Salon Spa WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+h1,h2,h3,h4,h5,h6,.logo h1, .site-title, .site-title a, .logo h1 a{
+    font-family: 'Raleway', sans-serif;
+}
+span.entry-author a,.comment-author a,.product_meta a {
+    text-decoration: underline;
+}
+body,.comment-metadata a{
+    color: #696969;
+}
+a:hover, a:active,#Category-section .postbox.smallpostimage:hover h3 a,.site-footer .textwidget a,#home-services .box-button a:hover{
+    color: #e782a0;
+}
+.copyright,.top_bar,a.added_to_cart.wc-forward:hover, nav.woocommerce-MyAccount-navigation ul li:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,p.chat_btn a:hover,.owl-nav i,p.chat_btn a, .page-template-custom-home-page p.chat_btn a, .home-btn a, .gb_nav_menu ul ul,p.chat_btn a, .page-template-custom-home-page p.chat_btn a, .home-btn a, .gb_nav_menu ul ul,#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,button, input[type="button"], input[type="submit"],nav.woocommerce-MyAccount-navigation ul li,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.prev.page-numbers, .next.page-numbers,.page-numbers.current,button.search-submit,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,.site-info,.site-footer .search-form .search-submit,.box-content,a.more-link{
+    background: #541f5c;
+}
+a,h1, h2, h3, h4, h5, h6,a.more-link:hover, .home-btn a:hover,.box-button a:hover,.logo h1, .site-title, .site-title a, .logo h1 a,.gb_nav_menu li a,.logo p,#sidebar h3,#Category-section h3 a,#sidebar th,#sidebar td,#sidebar caption,#sidebar select,#sidebar .tagcloud a, .site-footer .tagcloud a,.box span{
+    color: #541f5c;
+}
+.gb_nav_menu ul ul a:hover,.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #541f5c !important;
+}
+#sidebar h3,#sidebar select,.wp-block-quote:not(.is-large):not(.is-style-large), blockquote,.wp-block-quote:not(.is-large):not(.is-style-large),a.more-link{
+    border-color: #541f5c;
+}
+.site-info,p.chat_btn a:hover,p.chat_btn a,.site-footer .widget-area a:hover,#home-services .box-content p{
+    color: #fff;
+}
+
+/* --------- Header --------- */
+
+.top_bar{
+    border: none;
+}
+.wrap_figure {
+    background: #ffeff4;
+}
+.page-template-custom-home-page .wrap_figure {
+    background: #fff;
+    position: static;
+}
+.fixed_header.fixed{
+  background: #fff;
+}
+/*----------block css-----*/
+.wp-block-button .wp-block-button__link{
+    background:#541f5c ;
+}
+/* --------- Slider --------- */
+
+#slider{
+    background: #000;
+}
+#slider .carousel-caption {
+    right: 30%;
+    left: 30%;
+}
+#slider .carousel-caption h2 {
+    color: #fff;
+    font-weight: 800;
+}
+#slider .carousel-caption p {
+    color: #fff;
+    font-size: 18px;
+}
+#home-services .box-button a{
+    padding: 0;
+    background: transparent;
+}
+
+/* --------- Product --------- */
+
+.box{
+    position: relative;
+}
+.box-content {
+    padding: 10px;
+    position: absolute;
+    bottom: -25%;
+    right: 70px;
+}
+.box h4 {
+    color: #fff;
+}
+#home-services h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+p.heading-text {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* --------- loader --------- */
+
+.load :first-child{
+    background: #541f5c;
+    animation-delay:-1.5s;
+}
+.load :nth-child(2){
+    background:#e782a0;
+    animation-delay:-1s;
+}
+.load :nth-child(3){
+    background:#541f5c;
+    animation-delay:-0.5s;
+}
+.load :last-child{
+    background:#e782a0;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #323232;
+    padding: 2px;
+}
+
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 800px){
+    .toggle-menu button{
+        background: #541f5c;
+        color: #fff;
+    }
+    .page-template-custom-home-page p.chat_btn a{
+        color: #fff;
+    }
+    #slider .carousel-caption {
+        right: 10%;
+        left: 10%;
+    }
+    .gb_nav_menu ul ul{
+        background: #232323;
+    }
+    p.heading-text {
+        width: 100%;
+    }
+    .box-content {
+        bottom: -15%;
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 768px){
+    #slider .carousel-caption h2 {
+        font-size: 35px;
+    }
+    #slider .carousel-caption {
+        right: 20%;
+        left: 20%;
+    }
+}
+p.chat_btn a:hover,.toggle-menu button:hover,.scrollup.is-active:hover {
+    background: #e782a0;
+}
+.top_bar i:hover {
+    color: #e782a0;
+}
